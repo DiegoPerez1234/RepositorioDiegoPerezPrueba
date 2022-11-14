@@ -6,7 +6,7 @@
 #logo #nombre-pagina{
     padding-top: 0%;
     color: white;
-    background-color: blue;
+    background: rgb(48, 48, 119);
     padding: 15px;
     margin: 0px;
     height: 30px;
@@ -34,7 +34,7 @@ a{
 }
 
 a:hover{
-  background-color: blue;
+  background: rgb(48, 48, 119);
   padding: 10px;
   color: white;
 }
@@ -47,6 +47,13 @@ a:hover{
     text-align: right;
 }
 
+#galeria{
+  justify-content:right;
+  width: 400px;
+  height: 280px;
+  
+}
+
 #texto{
     text-align: left;
     background: rgb(48, 48, 119);
@@ -57,14 +64,13 @@ a:hover{
 
 #tarjetas{
     display: flex;
-
 }
 
 .tarjeta{
     flex-direction:column;
     justify-content:space-between;
     width:700px;
-    height:400px;
+    height:250px;
     margin: 10px;
     border: 1px solid lightgray;
     background-color: rgb(216, 230, 247);
@@ -76,7 +82,7 @@ a:hover{
 .tarjeta #textotarjeta{
     margin: 15px;
     text-align: left;
-    color: blue;
+    color: rgb(48, 48, 119);
 }
 
 .tarjeta #textotarjeta li{
@@ -129,6 +135,7 @@ a:hover{
   } 
 
   .tarjeta{
+    width: 350px;
     height: 350px;
   }
 
