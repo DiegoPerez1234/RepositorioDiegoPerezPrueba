@@ -1,0 +1,121 @@
+
+/*
+    estilos generales del proyecto web
+*/
+/*Navbar*/
+#logo #nombre-pagina{
+  padding-top: 0%;
+  color: white;
+  background: rgb(48, 48, 119);
+  padding: 15px;
+  margin: 0px;
+  height: 30px;
+  width: 100%;
+}
+
+#navbar{
+  text-align: center;
+  display: flex;
+  color: black;
+  background-color: rgb(216, 230, 247); 
+  font-size: 17px;
+  padding: 15px;
+  margin: 0px;
+  height: 30px;
+  width: 100%;
+}
+
+ul{
+list-style-type: none
+}
+
+a{
+  margin: 30px;
+}
+
+a:hover{
+background: rgb(48, 48, 119);
+padding: 10px;
+color: white;
+}
+/*Navbar*/
+
+/*contenido*/
+#contenido{
+  background-color: rgb(146, 203, 250);
+  padding: 25px;
+  text-align: center;
+}
+
+#tarjetas{
+  display: flex;
+
+}
+
+.tarjeta{
+  flex-direction:column;
+  justify-content:space-between;
+  width:300px;
+  height:340px;
+  margin: 25px;
+  border: 1px solid lightgray;
+  background-color: rgb(216, 230, 247);
+  box-shadow: 2px 2px 8px 4px #d3d3d3d1;
+  border-radius:15px;
+  font-family: sans-serif;
+}
+
+.titulo{
+  font-size: 24px;
+  padding: 10px 10px 0 10px;
+}
+.cuerpo{
+  padding: 10px;
+  margin: 15px;
+}
+
+img{
+  width: 190px;
+  height: 130px;
+}
+.pie{
+  background: rgb(48, 48, 119);
+  border-radius:15px 15px 15px 15px;
+  padding: 10px;
+  text-align:center;
+}
+.pie a{
+  text-decoration: none;
+  color: white;
+}
+.pie a:after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+}
+
+footer{
+  padding: 20px;
+  margin-bottom: 0%;
+}
+/*contenido*/
+
+
+@media screen and (max-width: 576px) {
+    #navbar{
+      display: block;
+      height: 110px;
+    }
+
+    #tarjetas{
+      display: block;
+      justify-content:space-between;
+    } 
+
+    .tarjeta{
+      height: 350px;
+    }
+}
